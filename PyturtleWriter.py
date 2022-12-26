@@ -5,8 +5,8 @@ def txt():
     pen.up()
     pen.setpos(-360,0)
     pen.down()
-    pen.color('black') # change color here <------------------------------------------------------
+    pen.color('black') # change color here <-------------------------------------------------------------------
     pen.write("Made by 12y brainpower!", font=( # change text here <-------------------------------------------
-      "Ariel", 40, "bold")) #change font here <----------------------------------------------------
+      "Ariel", 40, "bold")) #change font, size, here <---------------------------------------------------------
 txt()
 turtle.done()
